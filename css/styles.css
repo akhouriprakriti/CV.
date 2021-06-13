@@ -1,6 +1,8 @@
-.top-conatiner{
+.top-container{
   background-color: #e3fdfd;
-  padding-top: 80px;
+  padding-top: 250px;
+  position: relative;
+  padding-bottom: 50px;
 }
 body{
   color: #40514E;
@@ -34,15 +36,26 @@ h3{
 }
 
 
-.bottom-cloud{
+/* .bottom-cloud{
   position: absolute;
-  top:300px;
-  left:425px;
+  bottom: 300px;
+  left:100px;
 }
 .top-cloud{
-  position: relative;
-  left:325px;
-  top:00px;
+  position: absolute;
+  right:325px;
+  top:100px;
+} */
+.top-cloud {
+  position: absolute;
+  top: 150px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  top: 450px;
+  left: 300px;
 }
 
 .skill-row{
@@ -88,7 +101,7 @@ a:hover{
 .copyright{
   color: #eaf6f6;
   font-size: 0.75rem;
-  padding: 20px 0; 
+  padding: 20px 0;
 }
 .ho{
 margin: auto;
